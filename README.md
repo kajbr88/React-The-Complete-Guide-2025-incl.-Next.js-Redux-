@@ -39,15 +39,17 @@ The course is structured into modules, covering topics such as:
 
 ## Notes
 
-* **Some projects may not run or throw errors when in deeply nested folders when using Windows OS, because of Windows OS's Long Path issue/limitation, in such case copy the project to drive C, D etc, and into a single nested folder and if the project still throws errors then try to shorten the folder names where the project is copied to one or two word names and also without any spaces or with '-' and '_' instead of spaces.** 
-* Each project directory contains the complete React, Javascript, Typescript or Next.js project files for that particular application.
-* Each project directory contains the final/completed project for the particular module named "starting project" or so, as i had cloned the instructors starting project for each module and worked on that alongside instructor and completed the particular modules project on the same starting project. Step-by-step lesson wise example can be found inside "Full-Module-Resources" folder. 
-* This repository is intended for personal use and learning purposes.
+* **Some projects may not run or throw errors when in deeply nested folders when using Windows OS, because of Windows OS's Long Path issue/limitation, in such case copy the 
+  project to drive C, D etc, and into a single nested folder and if the project still throws errors then try to shorten the folder names where the project is copied to one or 
+  two word names and also without any spaces or with '-' and '_' instead of spaces.** 
+* Each project directory contains the complete React, Javascript, Typescript and Next.js project files for that particular application.
+* Each project directory contains the final/completed project for the particular module named "starting project" or so alongside "Full-Module-Resources" directory. "Full- 
+  Module-Resources" contains lesson wise example code for each module. 
 
 ## How to Run the Projects
 
-1.  Clone the repository: `git clone [repository URL]`
-2.  Navigate to the project directory: `cd [project directory]`
+1.  Clone the repository: `git clone https://github.com/kajbr88/React-The-Complete-Guide-2025-incl.-Next.js-Redux-.git`
+2.  Navigate to the project directory: e.g. `cd 20-Advanced Redux/Starting-Project/`
 3.  Run `npm install` (or `yarn install`) to install dependencies.
 4.  Run `npm run dev`/'npm start' (or `yarn start`/`yarn dev`) to launch the application.
 5.  Some project use Express.js and Node.js backend hence, you need to start the backend as well, backend project can be found next to the frontend folder so just `cd backend'.
